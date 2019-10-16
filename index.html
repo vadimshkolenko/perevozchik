@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Перевозчик</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+	(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+	m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+	(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+ 
+	ym(55341397, "init", {
+		 clickmap:true,
+		 trackLinks:true,
+		 accurateTrackBounce:true
+	});
+ </script>
+ <noscript><div><img src="https://mc.yandex.ru/watch/55341397" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+ <!-- /Yandex.Metrika counter -->
+</head>
+
+<div class="overlay-loader">
+	<div class="loader">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div>
+</div>
+
+<header>
+	<div class="company">
+		<h1>Перевозчик</h1>
+		<h3>Грузовое такси</h3>
+	</div>
+	<div class="phone-number">
+		<a href="tel:+79269102017">+79269102017</a>
+		<button id="call-button">Обратный звонок</button>
+	</div>
+</header>
+<main>
+	<section id="main-screen">
+		<h2>НАДЕЖНО ДОСТАВИМ ГРУЗ <br> В ЛЮБУЮ ТОЧКУ СТРАНЫ</h2>
+		<h3>
+			Грузоперевозки по Москве, Московской <br> области и всей России
+		</h3>
+		<a href="#price">Оставить заявку</a>
+	</section>
+	<section id="why">
+		<h2>Почему мы?</h2>
+		<div class="first-block">
+			<ul>
+				<li><img src="img/checked.png" alt="">Доступные цены</li>
+				<li><img src="img/checked.png" alt="">Надежная доставка груза</li>
+				<li><img src="img/checked.png" alt="">Доставка в нужный срок</li>
+			</ul>
+		</div>
+		<div class="second-block">
+			<ul>
+				<li><img src="img/checked.png" alt="">Опытные водители</li>
+				<li><img src="img/checked.png" alt="">Бесплатная консультация</li>
+				<li><img src="img/checked.png" alt="">Удобные способы оплаты</li>
+			</ul>
+		</div>
+	</section>
+	<section id="our-cars">
+		<h2>Наш транспорт</h2>
+		<div class="specification">
+			<h3>Газель фургон</h3>
+			<ul>
+				<li>Грузоподъемность(т): 1</li>
+				<li>Ширина(cм): 197</li>
+				<li>Длина(cм): 420</li>
+				<li>Высота(см): 188</li>
+			</ul>
+		</div>
+		<div class="gaz">
+			<img src="img/gaz.png" alt="">
+		</div>
+	</section>
+	<section id="cooperation">
+		<h2>Процесс сотрудничества</h2>
+		<div class="first-step step">
+			<div class="circle">1</div>
+			<p>
+				Вы оставляете заявку
+			</p>
+		</div>
+		<div class="second-step step">
+			<div class="circle">2</div>
+			<p>
+				С Вами связывается менеджер компании и консультирует
+			</p>
+		</div>
+		<div class="third-step step">
+			<div class="circle">3</div>
+			<p>
+				Оформляем документы и начинаем работать
+			</p>
+		</div>
+	</section>
+	<section id="price">
+		<h2>Оставьте заявку на рассчет стоимости</h2>
+		<form id="form-price">
+			<label>
+				Масса груза(кг):<input type="text" name="weight" placeholder="Введите массу груза"
+					required="Заполните это поле">
+			</label>
+			<label>
+				Адрес отправления:<input type="text" name="departure" placeholder="Введите адрес отправления"
+					required="Заполните это поле">
+			</label>
+			<label>
+				Адрес доставки:<input type="text" name="arrival" placeholder="Введите адрес доставки"
+					required="Заполните это поле">
+			</label>
+			<label>
+				Ваше имя:<input type="text" name="clientName" placeholder="Введите Ваше имя"
+					required="Заполните это поле">
+			</label>
+			<label>
+				Телефон:<input type="text" name="number" placeholder="Введите Ваш телефон"
+					required="Заполните это поле">
+			</label>
+			<label>
+				Email:<input type="text" name="email" placeholder="Введите Ваш email" required="Заполните это поле">
+			</label>
+			<input type="submit" value="Отправить">
+		</form>
+	</section>
+	<section id="travels">
+		<h2>ПОДГОТОВИМ ВЫГОДНЫЕ МАРШРУТЫ</h2>
+		<p>
+			Мы доставляем грузы в любой город России
+			через собственные отработанные маршруты
+			или подбираем индивидуальное решение.
+		</p>
+		<div class="travels-map">
+			<img src="img/map-location.png" alt="">
+		</div>
+	</section>
+	<section id="pay">
+		<h2>СПОСОБЫ ОПЛАТЫ</h2>
+		<div class="first-pay-block">
+			<ul>
+				<li>- Пластиковой картой</li>
+				<li>- Наличными</li>
+				<li>- Qiwi-кошельком</li>
+			</ul>
+		</div>
+		<div class="second-pay-block">
+			<ul>
+				<li>- Безналичным переводом</li>
+				<li>- Наложенным платежом</li>
+				<li>- Яндекс Деньгами</li>
+			</ul>
+		</div>
+	</section>
+	<section id="information">
+		<h2>НЕ ХВАТИЛО ИНФОРМАЦИИ?</h2>
+		<p>
+			Получите бесплатную консультацию нашего логиста, чтобы узнать,
+			как организовать процесс доставки Вашего груза в срок и без проблем.
+		</p>
+		<button id="consultation-button">Получить консультацию</button>
+	</section>
+	<section id="contact">
+		<h2>Контакты</h2>
+		<div class="tel">
+			<h3>Телефон:</h3>
+			<a href="tel:+79269102017">+79269102017</a>
+		</div>
+		<div class="mail">
+			<h3>Почта:</h3>
+			<a href="mailto:o.klim@list.ru">o.klim@list.ru</a>
+		</div>
+		<div class="location">
+			<h3>Адрес:</h3>
+			<a href="https://yandex.ru/maps/-/CGWSEA3H">г. Москва, ул. Хабаровская 2Б</a>
+		</div>
+		<div class="map-yandex">
+			<iframe src="https://yandex.ru/map-widget/v1/-/CGWSEA3H" width="560" height="400" frameborder="1"
+				allowfullscreen="true"></iframe>
+		</div>
+	</section>
+</main>
+<footer>
+	<p>
+		© 2019. Все права защищены.
+	</p>
+</footer>
+
+<!-- Формы -->
+
+<!-- ОБРАТНЫЙ ЗВОНОК -->
+<div id="modal-call" class="modal">
+	<article id="call" class="form-template">
+		<form id="form-call">
+			<!-- action="send.php" method="post"-->
+			<button class="call-close" type="button">Закрыть</button>
+			<h3>Обратный звонок</h3>
+			<label>
+				Ваше имя:<input type="text" name="clientName" placeholder="Введите Ваше имя"
+					required="Заполните это поле">
+			</label>
+			<label>
+				Ваш номер:<input type="text" name="number" placeholder="Введите Ваш номер"
+					required="Заполните это поле">
+			</label>
+			<input type="submit" value="Отправить" id="buttonSendCall">
+		</form>
+	</article>
+</div>
+
+
+<!-- ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ -->
+<div id="modal-consultation" class="modal">
+	<article id="consultation" class="form-template">
+		<form id="form-consultation">
+			<button class="consultation-close" type="button">Закрыть</button>
+			<h3>Получить консультацию</h3>
+			<label>
+				Ваше имя:<input type="text" name="clientName" placeholder="Введите Ваше имя"
+					required="Заполните это поле">
+			</label>
+			<label>
+				Ваш номер:<input type="text" name="number" placeholder="Введите Ваш номер"
+					required="Заполните это поле">
+			</label>
+			<label>
+				Ваша почта:<input type="text" name="email" placeholder="Введите Вашу почту"
+					required="Заполните это поле">
+			</label>
+			<input type="submit" value="Отправить">
+		</form>
+	</article>
+</div>
+
+<!-- Ваша заявка успешно отправлена. Мы свяжемся с Вами в ближайшее время. -->
+<div id="modal-answer" class="modal">
+	<article class="form-answer">
+		<p>
+			<span>Спасибо!</span> <br>
+			Ваша заявка успешно отправлена. <br>
+			Мы свяжемся с Вами в ближайшее время.
+		</p>
+		<button class="answer-close" type="button">Закрыть</button>
+	</article>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"></script>
+<script src="app.js"></script>
+</body>

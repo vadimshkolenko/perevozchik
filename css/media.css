@@ -1,0 +1,530 @@
+/*HEADER*/
+@media screen and (min-width: 0) and (max-width: 566px) {
+	header {
+    	grid-template-columns: 10% 80% 10%;
+    	grid-template-rows: 100px 10px 80px;
+    	background-color: black;
+    	background-image: none;
+	}
+
+	.company {
+		grid-row: 3/4;
+		grid-column: 2/3;
+		justify-self: center;
+	}
+
+	.company > h1 {
+		padding-bottom: 0;
+		font-size: 2.3em;
+		text-transform: uppercase;
+	}
+
+	.company > h3 {
+		font-size: 1em;
+	}
+
+	.phone-number {
+		padding-top: 5px;
+		grid-row: 1/2;
+		grid-column: 2/3;
+		justify-self: center;
+	}
+
+}
+
+
+/*MAIN-SCREEN*/
+@media screen and (min-width: 0) and (max-width: 566px) {
+	#main-screen {
+		grid-template-columns: 5% 90% 5%;
+		grid-template-rows: 70px 60px 10px 40px 25px 60px 40px;
+	}
+
+	#main-screen > h2 {
+		font-size: 1.3em;
+	}
+
+	#main-screen > h3 {
+		font-size: 0.9em;
+	}
+
+	#main-screen > a {
+	 	padding: .3em 1.5em;
+	 	width: 200px;
+	 	font-size: 0.8em;
+	 	height: 50px;
+	}
+}
+
+
+@media screen and (min-width: 557px) and (max-width: 950px) {
+	#main-screen {
+		grid-template-rows: 80px 80px 10px 40px 25px 60px 80px;
+	}
+
+	#main-screen > h2 {
+		font-size: 2em;
+	}
+
+	#main-screen > h3 {
+		font-size: 1em;
+	}
+
+	#main-screen > button {
+	 	padding: .5em 1.5em;
+	 	width: 250px;
+	 	font-size: 1em;
+	}
+
+}
+
+/*WHY*/
+@media screen and (min-width: 0) and (max-width: 700px) {
+	#why {
+		grid-template-columns: 5% 90% 5%;
+		grid-template-rows: 60px 40px 60px 300px 10px 300px 60px;
+	}
+
+	#why h2 {
+		grid-column: 2/3;
+		grid-row: 2/3;
+		font-size: 2em;
+	}
+
+	#why div {
+		width: 280px;
+		justify-content: space-between;
+	}
+
+	#why .first-block{
+		grid-column: 2/3;
+		grid-row: 4/5;
+	}
+
+	#why .second-block{
+		grid-column: 2/3;
+		grid-row: 6/7;
+	}
+
+	#why img {
+		width: 20px;
+	}
+
+	#why ul li {
+		font-size: 0.8em;
+		padding-left: 25px;
+	}
+
+}
+
+@media screen and (min-width: 701px) and (max-width: 950px) {
+	#why {
+		grid-template-columns: 10% 35% 10% 35% 10%;
+		grid-template-rows: 60px 40px 60px 300px 100px;
+	}
+
+	#why div {
+		width: 300px;
+	}
+
+	#why img {
+		width: 25px;
+	}
+
+	#why ul li {
+		padding-bottom: 70px;
+		font-size: 0.9em;
+	}
+}
+
+/*OUR-CARS*/
+@media screen and (min-width: 0) and (max-width: 566px) {
+	#our-cars {
+		display: grid;
+		grid-template-columns: 5% 90% 5%;
+		grid-template-rows: 40px 40px 30px 300px 40px 220px 40px;
+	}
+
+	#our-cars h2 {
+		grid-column: 2/3;
+		grid-row: 2/3;
+		justify-self: center;
+		text-transform: uppercase;
+		font-size: 2em;
+	}
+
+	#our-cars .specification {
+		grid-column: 2/3;
+		grid-row: 4/5;
+	 	width: 270px;
+	 	height: 270px;
+	}
+
+	#our-cars .specification ul li {
+		padding-top: 25px; 
+	}
+
+	#our-cars .gaz {
+		grid-column: 2/3;
+		grid-row: 6/7;
+	}
+
+	#our-cars .gaz img {
+		width: 250px;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+	#our-cars .specification {
+	 	width: 300px;
+	 	height: 300px;
+	}
+
+	#our-cars .gaz img {
+		width: 300px;
+	}
+}
+
+/*COOPERATION*/
+@media screen and (min-width: 701px) and (max-width: 950px) {
+	#cooperation p {
+	 	align-self: center;
+	 	text-align: center;
+		font-size: 1.4em;
+		font-weight: 100;
+		padding-top: 40px;
+	}
+}
+
+@media screen and (min-width: 0) and (max-width: 566px) {
+	#cooperation {
+	 	display: grid;
+	 	grid-template-columns: 5% 90% 5%;
+	 	grid-template-rows: 60px 60px 40px 300px 40px 300px 40px 300px 60px;
+	}
+
+	#cooperation > h2 {
+		grid-column: 2/3;
+		grid-row: 2/3;
+		font-size: 1.7em;
+		text-align: center;
+	}
+
+	#cooperation .step {
+	 	display: grid;
+	 	grid-template-rows: 160px 140px;
+
+
+	}
+
+	#cooperation .first-step {
+		grid-column: 2/3;
+		grid-row: 4/5;
+	 	align-self: center;
+	}
+
+	#cooperation .second-step {
+		grid-column: 2/3;
+		grid-row: 6/7;
+	 	align-self: center;
+	}
+
+	#cooperation .third-step {
+		grid-column: 2/3;
+		grid-row: 8/9;
+	 	align-self: center;
+	}
+
+	#cooperation .circle {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		justify-self: center;
+	 	align-self: center;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		border: 1px solid white;
+		font-size: 3em;
+		font-weight: 100;
+	}
+
+
+	#cooperation p {
+	 	align-self: center;
+	 	text-align: center;
+		font-size: 1.5em;
+		font-weight: 100;
+		padding-top: 40px;
+	}
+
+}
+
+/*PRICE*/
+@media screen and (min-width: 0) and (max-width: 566px) {
+	#price {
+		grid-template-rows: auto 750px;
+	}
+
+	#price h2 {
+		grid-column: 2/3;
+		grid-row: 1/2;
+		font-size: 2em;
+		text-align: center;
+	}	
+
+	#price input[type="text"] {
+		width: 180px;
+		height: 40px;
+		font-size: 0.7em;
+	}
+
+	#price form input[type="submit"] {
+	 	width: 170px;
+	 	font-size: 0.8em;
+	}
+}
+
+/*TRAVELS*/
+@media screen and (min-width: 0) and (max-width: 566px) {
+	#travels {
+		grid-template-columns: 5% 90% 5%;
+		grid-template-rows: 30px 120px 40px 150px 40px 280px 30px;
+	}
+
+	#travels p {
+		font-size: 1em;
+		width: 250px;
+	}
+
+	#travels .travels-map img {
+		width: 250px;
+	}
+}
+
+/*PAY*/
+@media screen and (min-width: 0) and (max-width: 566px) {
+	#pay {
+		grid-template-columns: 5% 90% 5%;
+		grid-template-rows: 60px 40px 60px 270px 80px 270px 60px;
+	}
+
+	#pay h2 {
+		grid-column: 1/4;
+		grid-row: 2/3;
+		justify-self: center;
+		text-transform: uppercase;
+		font-size: 2em;
+		text-align: center;
+		color: white;
+	}
+
+	#pay .first-pay-block {
+		grid-column: 2/3;
+		grid-row: 4/5;
+		justify-self: start;
+		align-self: center;
+	}
+
+	#pay .second-pay-block {
+		grid-column: 2/3;
+		grid-row: 6/7;
+		justify-self: start;
+		align-self: center;
+
+	}
+
+	#pay ul li {
+		color: white;
+		font-size: 1.5em;
+		font-weight: 100;
+		padding-bottom: 80px;
+	}
+
+	#pay ul li:last-child {
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 701px) and (max-width: 950px) {
+	#pay {
+		grid-template-columns: 5% 40% 10% 40% 5%;
+		grid-template-rows: 60px 40px 60px 250px 60px;
+	}	
+}
+
+
+/*INFORMATION*/
+@media screen and (min-width: 0) and (max-width: 566px) {
+	#information {
+		grid-template-columns: 5% 90% 5%;
+		grid-template-rows: 30px 90px 30px 150px 40px 80px 30px;
+	}
+
+	#information p {
+		font-size: 1em;
+		width: 250px;
+	}
+
+	#information .travels-map img {
+		width: 250px;
+	}
+
+	#information > button {
+		width: 240px;
+	}
+}
+
+/*CONTACT*/
+@media screen and (min-width: 0) and (max-width: 675px) {
+	#contact {
+		grid-template-columns: 5% 90% 5%;
+		grid-template-rows: 100px 100px 100px 100px 500px;
+	}
+
+	#contact h2 {
+		grid-column: 2/3;
+		grid-row: 1/2;
+		align-self: center;
+	}
+
+	#contact .tel {
+		grid-column: 2/3;
+		grid-row: 2/3;
+		text-align: center;
+	}
+
+	#contact .mail {
+		grid-column: 2/3;
+		grid-row: 3/4;
+		text-align: center;
+	}
+
+	#contact .location {
+		grid-column: 2/3;
+		grid-row: 4/5;
+		text-align: center;
+	}
+
+	.map-yandex {
+		grid-column: 2/3;
+		grid-row: 5/6;
+	}
+
+	#contact iframe {
+		width: 300px;
+	}
+}
+
+/*FOOTER*/
+@media screen and (min-width: 0) and (max-width: 700px) {
+	footer p {
+		text-align: center;
+ 		font-size: 1.2em;
+ 	}
+}
+
+/*form-template*/
+@media screen and (min-width: 0) and (max-width: 675px) {
+	.form-template {
+		background-color: white;
+		border-radius: 10px;
+		position: fixed;
+	    left: 50%;
+	    top: 50%;
+	    z-index: 0;
+	    margin-left: -150px;
+	    margin-top: -240px; 
+	}
+
+	.form-template h3 {
+		font-size: 1.5em;
+		text-transform: uppercase;
+		padding-bottom: 25px;
+		padding-top: 15px; 
+	}
+
+	.form-template button {
+		position: absolute;
+		top: 12px;
+		right: 12px;
+		border: none;
+		font: inherit;
+		color: inherit;
+		background-color: transparent;
+		/* отображаем курсор в виде руки при наведении; некоторые
+		  считают, что необходимо оставлять стрелочный вид для кнопок */
+		cursor: pointer;
+	}
+
+	.form-template form {
+	 	max-width: 300px;
+		padding: 30px;
+	}
+
+	.form-template input[type="text"] {
+		width: 250px;
+		height: 50px;
+		font-size: 1em;
+		margin-bottom: 25px;
+		border: none;
+		border-bottom: 1px solid black;
+		padding-left: 10px;
+		display: block;
+
+	}
+
+	.form-template input {
+		margin: 10px auto 0 auto;
+	}
+
+	.form-template form label {
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+
+	.form-template form input[type="submit"] {
+		color: white;
+		user-select: none; /* убирать выделение текста */
+		background: red; 
+	 	padding: .7em 1.5em;
+	 	width: 200px;
+	 	border-radius: 7px;
+	 	border: 1px solid red;
+	 	font-size: 1em;
+	  	font-weight: 700;
+	  	display: flex;
+		justify-content: center;
+	}
+
+	.form-template form input[type="submit"]:hover {
+		background: white;
+		color: red;
+		transition: all 0.5s;
+	}
+
+	.form-template form input[type="submit"]:active {
+		box-shadow: 0 0 10px red;
+		margin: 0 auto;
+	}
+}
+
+/*form-answer*/
+@media screen and (min-width: 0) and (max-width: 675px) {
+	.form-answer {
+		max-width: 280px;
+		margin-left: -140px;
+	}
+
+	.form-answer p span {
+		font-size: 1.4em;
+	}
+
+	.form-answer p {
+		align-self: center;
+		font-size: 1em;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+}
